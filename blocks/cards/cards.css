@@ -25,3 +25,126 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+
+.cards.cards17 {
+  background: #fff;
+  padding: 48px 24px;
+}
+
+.cards.cards17 ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 36px 30px;
+  margin: 0;
+  padding: 0;
+  place-items: stretch stretch;
+  list-style: none;
+}
+
+/* RESPONSIVE GRID BREAKPOINTS */
+@media (width <= 1100px) {
+  .cards.cards17 ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 16px;
+  }
+}
+
+@media (width <= 700px) {
+  .cards.cards17 ul {
+    grid-template-columns: 1fr;
+    gap: 18px 0;
+  }
+}
+
+/* CARD CONTAINER */
+.cards.cards17 li {
+  background: #fff;
+  box-sizing: border-box;
+  border: none;
+  padding: 28px 18px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* CARD ICON/IMAGE */
+.cards.cards17 .cards-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  width: 56px;
+  height: 56px;
+  min-height: 40px;
+  max-height: 64px;
+}
+
+.cards.cards17 .cards-card-image img,
+.cards.cards17 .cards-card-image svg {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+  filter: grayscale(1) brightness(0.2) opacity(0.7);
+}
+
+/* CARD BODY/TEXT */
+.cards.cards17 .cards-card-body {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITLE */
+.cards.cards17 .cards-card-body h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin: 0 0 13px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  line-height: 1.25;
+}
+
+/* DESCRIPTION */
+.cards.cards17 .cards-card-body p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #444;
+  text-align: center;
+  margin: 0 0 11px;
+  line-height: 1.5;
+  max-width: 100%;
+}
+
+/* PRICE ACCENT W/ RED BAR */
+.cards.cards17 .cards-card-body p:last-child {
+  color: #1A1A1A;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 0;
+  position: relative;
+  line-height: 1.5;
+}
+
+.cards.cards17 .cards-card-body p:last-child::after {
+  display: block;
+  width: 34px;
+  height: 3px;
+  background: #D11F2A;
+  margin: 10px auto 0;
+  border-radius: 2px;
+  content: "";
+}
+
+/* ENSURE CONSISTENT SPACING EVEN IF LESS THAN 4 CARDS PER ROW */
+
+/* OPTIONAL: PREVENT UL BULLET */
