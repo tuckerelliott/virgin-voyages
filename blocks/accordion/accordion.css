@@ -1,6 +1,6 @@
 /* stylelint-disable no-descending-specificity */
 .accordion details {
-  border: 1px solid #dadada;
+  border-bottom: 0px solid #dadada;
 }
 
 .accordion details + details {
@@ -105,12 +105,12 @@ summary p {
   padding: 32px 0;
   background: none;
   flex: 1 1 400px;
-  max-width: 500px;
+  max-width: 900px;
 }
 
 .accordion {
   width: 100%;
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

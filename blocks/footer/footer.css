@@ -1,20 +1,29 @@
 footer {
   font-size: var(--body-font-size-xs);
   background: rgb(21 21 21) url("https://virginvoyages.imgix.net/dam/jcr:c5f2b891-28fe-4eda-9b98-492b16f55b49/ILL-BRAND-virgin-logo-white-v1-01-672x544.png") no-repeat scroll calc(100% + 40px) calc(100% + 32px) / 314px 278px padding-box border-box;
+  color: #FFF;
+  align-items: top;
+  text-align: left;
 }
 
 footer .footer>div {
   margin: auto;
-  max-width: 1200px;
   padding: 40px 24px 24px;
 }
 
 footer .footer p {
-  margin: 0;
+  margin: 20;
+  font-size: 12px;
 }
 
 @media (width>=900px) {
   footer .footer>div {
     padding: 40px 32px 24px;
   }
+}
+
+footer .columns-wrapper .columns div {
+  vertical-align: top;
+  min-width: max-content;
+  margin-bottom: 20px;
 }

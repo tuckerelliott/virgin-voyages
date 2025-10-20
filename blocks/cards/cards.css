@@ -1,4 +1,8 @@
-/* stylelint-disable no-descending-specificity */
+main .cards-wrapper {
+      max-width: unset !important;
+}
+
+* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -35,7 +39,7 @@
 
 .cards.cards17 ul {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 36px 30px;
   margin: 0;
   padding: 0;
@@ -143,7 +147,6 @@
 .cards.cards19 {
   background: #fff;
   margin: 0 auto;
-  max-width: 900px;
   padding: 32px 16px 48px;
   box-sizing: border-box;
   display: flex;
@@ -184,7 +187,6 @@
   border-radius: 0;
   margin: 0;
   padding: 0;
-  max-width: 370px;
   width: 100%;
   min-width: 0;
   box-sizing: border-box;
@@ -213,11 +215,12 @@
   justify-content: flex-start;
   flex: 1 1 auto;
   box-sizing: border-box;
+  text-align: left;
 }
 
 /* Card heading */
 .cards.cards19 .cards-card-body h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--text-color);
   margin: 0 0 10px;

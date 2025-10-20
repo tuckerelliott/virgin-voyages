@@ -1,8 +1,12 @@
+main .embed-wrapper {
+      max-width: unset !important;
+      padding: 0;
+}
+
 .embed {
-  width: unset;
+  width: 100%;
   text-align: center;
-  max-width: 800px;
-  margin: 32px auto;
+  margin: auto;
 }
 
 .embed > div {

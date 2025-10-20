@@ -34,3 +34,12 @@
   font-display: swap;
   unicode-range: U+0-10FFFF;
 }
+
+@font-face {
+  font-family: "Headline";      
+  src: url('https://prod.cdn-vv.com/fonts/Voyages-Headline-v2.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0-10FFFF;
+}
