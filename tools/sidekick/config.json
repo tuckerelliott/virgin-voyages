@@ -3,3 +3,16 @@
   "editUrlLabel": "AEM Editor",
   "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open"
 }
+
+{
+  "project": "...",
+  "plugins": [
+    {
+      "id": "quick-edit",
+      "title": "Quick Edit",
+      "environments": [ "dev", "preview" ],
+      "event": "quick-edit"
+    }
+  ]
+}
+
