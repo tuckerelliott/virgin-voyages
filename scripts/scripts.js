@@ -156,7 +156,6 @@ async function loadLazy(doc) {
   // eslint-disable-next-line import/no-cycle
   if (hasQE) import('../tools/quick-edit/quick-edit.js').then((mod) => mod.default());
 })();
-}
 
 /**
  * Loads everything that happens a lot later,
