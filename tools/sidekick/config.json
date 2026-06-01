@@ -1,11 +1,11 @@
 {
-  "project": "AEM XWalk Boilerplate",
+  "project": "Virgin Voyages",
   "editUrlLabel": "AEM Editor",
   "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open"
 }
 
 {
-  "project": "...",
+  "project": "Virgin Voyages",
   "plugins": [
     {
       "id": "quick-edit",
