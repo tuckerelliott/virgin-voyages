@@ -1,7 +1,7 @@
 {
   "project": "Virgin Voyages",
   "editUrlLabel": "AEM Editor",
-  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open"
+  "editUrlPattern": "https://da.live/canvas#/tuckerelliott/virgin-voyages"
 }
 
 {
